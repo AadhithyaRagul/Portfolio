@@ -8,7 +8,6 @@ import {
   Briefcase,
   Cpu,
   Trophy,
-  Award,
   FileText,
   Terminal,
   Sparkles,

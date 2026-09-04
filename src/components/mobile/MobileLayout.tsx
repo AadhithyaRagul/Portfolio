@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { ChevronLeft, Sparkles, User, Briefcase, Code, Cpu, Trophy, Award, Image, FileText, Mail, TerminalSquare } from 'lucide-react';
+import { ChevronLeft, Sparkles, User, Briefcase, Code, Cpu, Trophy, Image, FileText, Mail, TerminalSquare } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 import { About } from '../apps/About';
@@ -9,7 +9,6 @@ import { Experience } from '../apps/Experience';
 import { Projects } from '../apps/Projects';
 import Skills from '../apps/Skills';
 import Achievements from '../apps/Achievements';
-import Certifications from '../apps/Certifications';
 import Photos from '../apps/Photos';
 import Resume from '../apps/Resume';
 import Contact from '../apps/Contact';
@@ -22,7 +21,6 @@ const MOBILE_APPS: Record<string, { component: React.ComponentType; label: strin
   experience: { component: Experience, label: 'Experience', icon: <Briefcase size={22} /> },
   skills: { component: Skills, label: 'Skills', icon: <Cpu size={22} /> },
   achievements: { component: Achievements, label: 'Achievements', icon: <Trophy size={22} /> },
-  // certifications: { component: Certifications, label: 'Certifications', icon: <Award size={22} /> },
   photos: { component: Photos, label: 'Photos', icon: <Image size={22} /> },
   resume: { component: Resume, label: 'Resume', icon: <FileText size={22} /> },
   contact: { component: Contact, label: 'Contact', icon: <Mail size={22} /> },

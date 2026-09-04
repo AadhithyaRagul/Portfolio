@@ -16,11 +16,8 @@ import {
   User,
   Cpu,
   Trophy,
-  Award,
   Terminal,
-  Sparkles,
-  Trash2,
-  Laptop,
+  Sparkles
 } from 'lucide-react';
 
 const DESKTOP_ICONS = [

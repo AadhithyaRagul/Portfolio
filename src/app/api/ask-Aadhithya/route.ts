@@ -6,8 +6,7 @@ import {
   experience,
   projects,
   skills,
-  achievements,
-  certifications,
+  achievements
 } from "@/data/portfolioData";
 
 export const runtime = "nodejs";
