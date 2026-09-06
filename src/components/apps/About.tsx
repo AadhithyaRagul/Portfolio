@@ -2,6 +2,7 @@
 import React from "react";
 import { portfolioData } from "@/data/portfolioData";
 import { Github, Linkedin, Mail } from "lucide-react";
+import Image from "next/image";
 
 export function About() {
   const { profile, education, links } = portfolioData;
@@ -11,10 +12,12 @@ export function About() {
       {/* Header Section */}
       <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
         <div className="w-40 h-40 rounded-3xl overflow-hidden shadow-2xl shrink-0 border border-white/20 bg-white/5">
-          <img 
+          <Image
             src="/assets/profile/profile-image.jpeg" 
             alt={profile.name}
-            className="w-full h-full object-cover"
+            width={200}
+            height={200}
+            className="object-cover"
           />
         </div>
         <div className="flex flex-col text-center md:text-left gap-4">

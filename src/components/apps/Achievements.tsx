@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { portfolioData, type Achievement } from '@/data/portfolioData';
 import { Trophy, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 
 export default function Achievements() {
   const { achievements } = portfolioData;
@@ -22,7 +23,7 @@ export default function Achievements() {
             {achievement.image ? (
               <>
                 <div className="aspect-video w-full bg-black/50 relative overflow-hidden">
-                  <img
+                  <Image
                     src={achievement.image}
                     alt={achievement.title}
                     className="w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity group-hover:scale-105 duration-500"

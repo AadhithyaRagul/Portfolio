@@ -367,7 +367,7 @@ export const searchIndex: SearchItem[] = [
     title: "Aadhithya A",
     category: "Profile",
     appId: "about",
-    keywords: ["Aadhithya", "jolapara", "about", "profile", "education", "ai", "ml"],
+    keywords: ["Aadhithya", "Aadhi", "about", "profile", "education"],
   },
   {
     title: "Resume",
